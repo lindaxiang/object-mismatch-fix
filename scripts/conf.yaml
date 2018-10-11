@@ -1,0 +1,30 @@
+
+
+#collab: 'data/source/xml.collab_song_TEST.txt'
+collab: 'data/source/xml.collab_song.txt'
+aws: 'data/source/xml.aws_song.txt'
+xml_dir: 'data/collab-storage'
+collab_xml_fix_dir: 'data/fix/collab'
+aws_xml_fix_dir: 'data/fix/aws'
+ega_xml_info: 'data/source/ega_xml.info.txt'
+ega_job_dir: 'data/ega-jobs'
+ega_xml_dir: '/data/object-mismatch-fix-v1/data/ega-xmls'
+ega_xml_mismatch: 'data/source/ega_xml_mismatch.txt'
+pcawg_xml_mismatch: 'data/source/pcawg_xml_mismatch.txt'
+xml_mismatch: 'data/source/xml_mismatch.txt'
+
+collab_song_dir: 'data/collab-song'
+collab_song_update_dir: 'data/collab-song/update'
+
+song:
+    collab: "https://song.cancercollaboratory.org"
+    aws: "https://virginia.song.icgc.org"
+
+meta_bucket_url: 's3://oicr.icgc.meta/metadata/'
+
+collab_endpoint_url: 'https://object.cancercollaboratory.org:9080'
+
+
+aws_approved: ['LIRI-JP', 'PACA-CA' , 'PRAD-CA', 'RECA-EU', 'PAEN-AU', 'PACA-AU',
+'BOCA-UK','OV-AU', 'MELA-AU', 'BRCA-UK', 'PRAD-UK', 'CMDI-UK', 'LINC-JP',
+'ORCA-IN', 'BTCA-SG', 'LAML-KR', 'LICA-FR', 'CLLE-ES', 'ESAD-UK', 'PAEN-IT']
