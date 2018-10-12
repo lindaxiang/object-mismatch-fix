@@ -1,20 +1,17 @@
 
+log: 'fix.log'
 
 #collab: 'data/source/xml.collab_song_TEST.txt'
 collab: 'data/source/xml.collab_song.txt'
 aws: 'data/source/xml.aws_song.txt'
 xml_dir: 'data/collab-storage'
-collab_xml_fix_dir: 'data/fix/collab'
-aws_xml_fix_dir: 'data/fix/aws'
+xml_fix_dir: 'data/fix'
+
 ega_xml_info: 'data/source/ega_xml.info.txt'
 ega_job_dir: 'data/ega-jobs'
-ega_xml_dir: '/data/object-mismatch-fix-v1/data/ega-xmls'
-ega_xml_mismatch: 'data/source/ega_xml_mismatch.txt'
-pcawg_xml_mismatch: 'data/source/pcawg_xml_mismatch.txt'
-xml_mismatch: 'data/source/xml_mismatch.txt'
+ega_xml_dir: '/data/ega-xmls'
 
-collab_song_dir: 'data/collab-song'
-collab_song_update_dir: 'data/collab-song/update'
+xml_mismatch: 'data/source/xml_mismatch.txt'
 
 song:
     collab: "https://song.cancercollaboratory.org"
